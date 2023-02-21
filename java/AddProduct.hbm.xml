@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+
+<class name="bean.AddProduct" table="AddProduct_table">
+<id name="id">
+<generator class="increment"></generator>
+</id>
+<property name="productname" ></property>
+<property name="featured"   ></property>
+<property name="flashsale" ></property>
+<property name="category"   ></property>
+<property name="description" ></property>
+<property name="price"   ></property>
+<property name="unit"   ></property>
+<property name="stock"   ></property>
+
+</class>
+</hibernate-mapping>
+
+
